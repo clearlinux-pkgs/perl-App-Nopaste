@@ -1,0 +1,13 @@
+# This file contains additional runtime requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+perl(Class::Load)
+perl(Getopt::Long::Descriptive)
+perl(JSON::MaybeXS)
+perl(LWP::Protocol)
+perl(LWP::UserAgent)
+perl(Module::Pluggable)
+perl(Module::Runtime)
+perl(Path::Tiny)
+perl(URI::Escape)
+perl(WWW::Mechanize)
+perl(namespace::clean)
