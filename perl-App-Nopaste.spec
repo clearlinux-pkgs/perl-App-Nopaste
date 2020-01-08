@@ -4,7 +4,7 @@
 #
 Name     : perl-App-Nopaste
 Version  : 1.013
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/App-Nopaste-1.013.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/App-Nopaste-1.013.tar.gz
 Summary  : 'Easy access to any pastebin'
@@ -31,6 +31,7 @@ BuildRequires : perl(Class::Load)
 BuildRequires : perl(Data::OptList)
 BuildRequires : perl(Encode::Locale)
 BuildRequires : perl(Getopt::Long::Descriptive)
+BuildRequires : perl(HTML::TokeParser)
 BuildRequires : perl(JSON::MaybeXS)
 BuildRequires : perl(LWP::Protocol)
 BuildRequires : perl(LWP::UserAgent)
@@ -173,17 +174,17 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Command.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Codepeek.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Debian.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Gist.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/GitLab.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Mojopaste.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/PastebinCom.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Pastie.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Shadowcat.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Snitch.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/Ubuntu.pm
-/usr/lib/perl5/vendor_perl/5.28.2/App/Nopaste/Service/ssh.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Command.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Codepeek.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Debian.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Gist.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/GitLab.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Mojopaste.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/PastebinCom.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Pastie.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Shadowcat.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Snitch.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/Ubuntu.pm
+/usr/lib/perl5/vendor_perl/5.30.1/App/Nopaste/Service/ssh.pm
