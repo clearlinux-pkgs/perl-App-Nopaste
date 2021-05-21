@@ -174,17 +174,17 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Command.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Codepeek.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Debian.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Gist.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/GitLab.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Mojopaste.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/PastebinCom.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Pastie.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Shadowcat.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Snitch.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/Ubuntu.pm
-/usr/lib/perl5/vendor_perl/5.32.1/App/Nopaste/Service/ssh.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Command.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Codepeek.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Debian.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Gist.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/GitLab.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Mojopaste.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/PastebinCom.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Pastie.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Shadowcat.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Snitch.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/Ubuntu.pm
+/usr/lib/perl5/vendor_perl/5.34.0/App/Nopaste/Service/ssh.pm
