@@ -4,7 +4,7 @@
 #
 Name     : perl-App-Nopaste
 Version  : 1.013
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/App-Nopaste-1.013.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/App-Nopaste-1.013.tar.gz
 Summary  : 'Easy access to any pastebin'
